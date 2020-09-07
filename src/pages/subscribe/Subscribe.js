@@ -24,8 +24,7 @@ const Subscribe = () => {
           value={values.name || ""}
           placeholder="Name"
           onChange={handleChange}
-          required
-          
+          required    
         />
         <input
           type="email"
@@ -35,14 +34,12 @@ const Subscribe = () => {
           onChange={handleChange}
           required
         />
-
         <button className="btn" type="submit">
           Subscribe
         </button>
       </form>
       <div className="sub-img">
       <img className="img" src={img} alt="" />
-
       </div>
     </div>
   );
