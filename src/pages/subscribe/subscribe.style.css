@@ -1,0 +1,68 @@
+.subscribe {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.sub-title {
+  margin-top: 2rem;
+  letter-spacing: 2px;
+  color: grey;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.form {
+  width: 50%;
+}
+
+.form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(199, 198, 198);
+  outline: lightgrey;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+  padding: 0.2rem;
+}
+
+.btn {
+  font-size: 1.1rem;
+  border: 1px solid lightgrey;
+  color: grey;
+  letter-spacing: 3px;
+  width: 20%;
+  margin-top: 1rem;
+  outline: lightgrey;
+  padding-top: 0.2rem;
+  transition: all 1s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scaleX(1.2);
+}
+
+.sub-img {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.096);
+}
+
+.img {
+  width: 15%;
+}
+
+@media only screen and (max-width: 800px) {
+  .form {
+    width: 80%;
+  }
+  .img {
+    width: 60%;
+  }
+  .btn {
+    width: 40%;
+  }
+}

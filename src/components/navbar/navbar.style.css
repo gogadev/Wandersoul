@@ -1,0 +1,55 @@
+nav {
+  text-align: center;
+  transform: translateY(1rem);
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+  letter-spacing: 7px;
+  color: rgb(190, 190, 190);
+  font-weight: 100;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin-top: 3.7rem;
+  padding: 0.4rem;
+  background: rgba(0, 0, 0, 0.041);
+  transform: translateY(-0.7rem);
+}
+
+.list span {
+  font-weight: 400;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.pages {
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  opacity: 0.6;
+}
+
+.line-img {
+  position: absolute;
+  width: 20%;
+  top: 60%;
+  left: 30%;
+  transform: translate(50%, -50%);
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 800px) {
+  .pages {
+    font-size: 1.1rem;
+  }
+  .line-img {
+    width: 70%;
+    left: -19%;
+  }
+}
